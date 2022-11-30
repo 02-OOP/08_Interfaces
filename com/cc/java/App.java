@@ -16,13 +16,16 @@ public class App {
         output(worker.doYourJob());
         output(queen.doYourJob());
         output(drone.doYourJob());
-        output(bird.doYourJob());
 
         output("-----------------");
 
         output(worker.fly());
         output(queen.fly());
         output(drone.fly());
+
+        output("-----------------");
+
+        output(bird.hasFeathers());
         output(bird.fly());
 
 
